@@ -1,0 +1,31 @@
+{
+  "technology": {
+    "vue": "Made with Vue.js",
+    "vuetify": "Designed with",
+    "node": "Served by Node.JS",
+    "nginx": "Routed by",
+    "letsencrypt": "Encrypted by",
+    "debian": "Hosted on Debian 9",
+    "github": "Code on GitHub"
+  },
+  "stats": {
+    "github": {
+      "stat1": "Repos",
+      "stat2": "Followers"
+    },
+    "description": {
+      "on": "...on {0}",
+      "as": "as {0}"
+    },
+    "geocaching": {
+      "stat1": "Finds",
+      "stat2": "Trackables"
+    }
+  },
+  "titles": {
+    "about": "I'm..."
+  },
+  "global": {
+    "opensNewTab": "(opens in new tab/panel/window)"
+  }
+}

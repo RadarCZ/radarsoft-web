@@ -1,0 +1,31 @@
+{
+  "technology": {
+    "vue": "Vytvořeno pomocí Vue.js",
+    "vuetify": "Designováno pomocí",
+    "node": "Beží na Node.JS",
+    "nginx": "Směrováno pomocí",
+    "letsencrypt": "Zabezpečeno díky",
+    "debian": "Hostováno na Debianu 9",
+    "github": "Kod mám na GitHubu"
+  },
+  "stats": {
+    "github": {
+      "stat1": "Repozitáře",
+      "stat2": "Sledující"
+    },
+    "description": {
+      "on": "...na {0}u",
+      "as": "jako {0}"
+    },
+    "geocaching": {
+      "stat1": "Nálezů",
+      "stat2": "Trackovatelných"
+    }
+  },
+  "titles": {
+    "about": "Jsem..."
+  },
+  "global": {
+    "opensNewTab": "(otevře nový panel/okno prohlížeče)"
+  }
+}
