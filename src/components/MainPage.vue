@@ -28,19 +28,8 @@ export default {
     }
   },
   computed: {
-    githubStats () {
-      const user = this.$store.state.githubUser
-      return {
-        site: 'github',
-        icon: user.avatar_url,
-        name: user.login,
-        stat1: user.public_repos,
-        stat2: user.followers,
-        targetUrl: `https://github.com/${user.login}`
-      }
-    },
     stats () {
-      return [this.githubStats, this.$store.state.gcUser]
+      return [this.$store.state.githubUser, this.$store.state.gcUser]
     }
   },
   created () {

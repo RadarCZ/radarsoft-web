@@ -17,7 +17,7 @@ export default new Vuex.Store({
   },
   actions: {
     async reloadGithubUser ({ commit, state }, { username }) {
-      const response = await axios.get(`https://api.github.com/users/${username}`)
+      const response = await axios.get(`/github?u=${username}`)
       if (response.status === 200) {
         commit('setItem', { key: 'githubUser', value: response.data })
       }
