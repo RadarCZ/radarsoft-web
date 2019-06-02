@@ -1,10 +1,12 @@
 <template>
   <v-app>
     <v-toolbar app dense color="primary lighten-2">
-      <v-toolbar-title>{{ window.location.hostname }}</v-toolbar-title>
+      <v-toolbar-title>Radarsoft</v-toolbar-title>
       <v-spacer />
       <v-toolbar-items>
-        <v-btn flat>{{ $t('titles.about') }}</v-btn>
+        <rad-kofi-btn userId='D1D0WKOS'>
+          {{ $t('global.ko-fi') }}
+        </rad-kofi-btn>
       </v-toolbar-items>
     </v-toolbar>
 
@@ -66,12 +68,16 @@
 </style>
 
 <script>
+import RadKofiBtn from './components/rad-kofi-btn'
 export default {
   name: 'App',
   data () {
     return {
       window: window
     }
+  },
+  components: {
+    RadKofiBtn
   }
 }
 </script>

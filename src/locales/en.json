@@ -26,6 +26,7 @@
     "about": "I'm..."
   },
   "global": {
-    "opensNewTab": "(opens in new tab/panel/window)"
+    "opensNewTab": "(opens in new tab/panel/window)",
+    "ko-fi": "Buy me a Ko-fi!"
   }
 }
