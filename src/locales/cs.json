@@ -2,11 +2,11 @@
   "technology": {
     "vue": "Vytvořeno pomocí Vue.js",
     "vuetify": "Designováno pomocí",
-    "node": "Beží na Node.JS",
+    "node": "Běží na Node.JS",
     "nginx": "Směrováno pomocí",
     "letsencrypt": "Zabezpečeno díky",
     "debian": "Hostováno na Debianu 9",
-    "github": "Kod mám na GitHubu"
+    "github": "Kód mám na GitHubu"
   },
   "stats": {
     "github": {
