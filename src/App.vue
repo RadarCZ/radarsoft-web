@@ -41,10 +41,10 @@
         <span class="footer--alone-link" v-if="window.location.protocol === 'https'"><a href="https://letsencrypt.org" target="_blank">Let's Encrypt</a>.</span>
         <v-divider inset vertical v-if="window.location.protocol === 'https'" />
         <v-tooltip top>
-          <v-btn icon slot="activator" @click="window.open('https://debian.org', 'blank')">
-            <v-icon>mdi-debian</v-icon>
+          <v-btn icon slot="activator" @click="window.open('https://www.raspberrypi.org/', 'blank')">
+            <v-icon>mdi-raspberry-pi</v-icon>
           </v-btn>
-          {{ $t('technology.debian') }}
+          {{ $t('technology.host') }}
         </v-tooltip>
         <v-divider inset vertical/>
         <v-tooltip top>

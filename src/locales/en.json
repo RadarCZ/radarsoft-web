@@ -5,7 +5,7 @@
     "node": "Served by Node.JS",
     "nginx": "Routed by",
     "letsencrypt": "Encrypted by",
-    "debian": "Hosted on Debian 9",
+    "host": "Running on Raspberry Pi",
     "github": "Code on GitHub"
   },
   "stats": {

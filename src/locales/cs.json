@@ -5,7 +5,7 @@
     "node": "Běží na Node.JS",
     "nginx": "Směrováno pomocí",
     "letsencrypt": "Zabezpečeno díky",
-    "debian": "Hostováno na Debianu 9",
+    "host": "Běží na Raspberry Pi",
     "github": "Kód mám na GitHubu"
   },
   "stats": {
